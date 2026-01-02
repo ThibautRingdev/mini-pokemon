@@ -1,14 +1,27 @@
+const pokemonTypes = {
+    Pikachu: 'Électrique',
+    Bulbizarre: 'Plante/Poison',
+    Herbizarre: 'Plante/Poison',
+    Florizarre: 'Plante/Poison',
+
+    Carapuce: 'Eau',
+    Carabaffe: 'Eau',
+    Tortank: 'Eau',
+
+    Salamèche: 'Feu',
+    Reptincel: 'Feu',
+    Dracaufeu: 'Feu/Vol',
+
+    Ratata: 'Normal',
+    Rattatac: 'Normal',
+
+    Roucool: 'Normal/Vol',
+    Roucoups: 'Normal/Vol',
+    Roucarnage: 'Normal/Vol'
+};
+
 function pokemonName(name) {
-    if (name === 'Pikachu')
-        return 'Électrique';
-    if (name === 'Bulbizarre')
-        return 'Plante/Poison';
-    if (name === 'Carapuce')
-        return 'Eau';
-    if (name === 'Ratata')
-        return 'Normal';
-    else
-        return 'Je ne connais pas ce pokémon';
+    return pokemonTypes[name] || 'Je ne connais pas ce Pokémon';
 }
 
 export default pokemonName;
