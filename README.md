@@ -106,10 +106,6 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 
 Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
-## 👨‍💻 Auteur
-
-Créé avec ❤️ pour les fans de Pokémon
-
 ---
 
 ⭐ Si ce projet vous plaît, n'hésitez pas à lui donner une étoile !
